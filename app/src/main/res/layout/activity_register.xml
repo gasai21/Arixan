@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pangling.ars_ol.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvJudulRegister"
+        android:layout_width="436dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:background="#7B1FA2"
+        android:gravity="center"
+        android:padding="21dp"
+        android:text="Register Form"
+        android:textColor="#E4F1FE"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_below="@+id/tvJudulRegister"
+        tools:context="net.simplifiedcoding.firebasecloudmessaging.MainActivity"
+        >
+
+
+
+        <TextView
+            android:id="@+id/tvnamaRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_alignStart="@+id/tvpasswordRegister"
+            android:text="Nama" />
+
+        <EditText
+            android:id="@+id/txtNamaRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnamaRegister"
+            android:layout_toEndOf="@+id/tvnamaRegister" />
+
+        <TextView
+            android:id="@+id/tvusernameRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNamaRegister"
+            android:layout_alignParentStart="true"
+            android:text="Username" />
+
+        <EditText
+            android:id="@+id/txtusernameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvusernameRegister"
+            android:layout_toEndOf="@+id/tvnamaRegister"/>
+
+        <TextView
+            android:id="@+id/tvpasswordRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtusernameRegister"
+            android:layout_alignEnd="@+id/tvusernameRegister"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/txtpasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvpasswordRegister"
+            android:layout_toEndOf="@+id/tvnamaRegister"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/tvnomorRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtpasswordRegister"
+            android:layout_marginBottom="13dp"
+            android:text="Nomor Telepon" />
+
+        <EditText
+            android:id="@+id/txtnomorRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnomorRegister"
+            android:layout_toEndOf="@+id/tvnamaRegister"
+            android:layout_marginBottom="21dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7B1FA2"
+            android:text="Register"
+            android:layout_below="@+id/txtnomorRegister"
+            android:textColor="#fff" />
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

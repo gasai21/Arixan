@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pangling.ars_ol.MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ScrollView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:background="@drawable/atas"
+            android:id="@+id/atasMenu"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA"
+            android:visibility="invisible"
+            android:textSize="1dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/tvtoken"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="160dp"
+            android:id="@+id/tvNamaMenu"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="089618287850"
+            android:id="@+id/tvNoTelp"
+            android:layout_below="@+id/tvNamaMenu"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/atasMenu"
+            android:background="@drawable/menubtn"
+            android:id="@+id/btnMenuArisan"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btnMenuArisan"
+            android:background="@drawable/logoutbtn"
+            android:id="@+id/btnMenuLogout"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/putih"
+            android:layout_below="@+id/btnMenuLogout"
+            android:text="Develop By Gagah dan Daffa"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

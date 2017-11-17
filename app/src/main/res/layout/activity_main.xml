@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pangling.ars_ol.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/atas">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="70dp"
+                android:id="@+id/login"
+                android:layout_marginTop="90dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arisan online"
+                android:layout_below="@+id/login"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#fff"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/atas"
+            android:padding="30dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint="Username"
+                android:textSize="20dp"
+                android:id="@+id/txtUsername"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtUsername"
+                android:hint="Password"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtPassword"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPassword"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnLogin"
+                android:text="Login"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnLogin"
+                android:text="Belum Punya akun ? Klik di sini!"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:id="@+id/tvRegistr"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

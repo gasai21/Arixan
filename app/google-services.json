@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "92343237843",
+    "firebase_url": "https://arixan-22df6.firebaseio.com",
+    "project_id": "arixan-22df6",
+    "storage_bucket": "arixan-22df6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92343237843:android:c1c2c714841f9571",
+        "android_client_info": {
+          "package_name": "com.example.pangling.ars_ol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92343237843-kdk0ihkkb3vklgptia0tofln13b0s7ec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pangling.ars_ol",
+            "certificate_hash": "63b8e61e3a15060c1a5cc12a0c713c48097ca92c"
+          }
+        },
+        {
+          "client_id": "92343237843-bkmurj998s38er25ljcj28i369c6rg2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjYiCcGRTetScddh2id6I9ylwC5rzepI0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92343237843-bkmurj998s38er25ljcj28i369c6rg2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

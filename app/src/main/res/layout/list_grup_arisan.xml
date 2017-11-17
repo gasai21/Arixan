@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="9dp"
+    android:id="@+id/custome_cardview_arisan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f3e5f5"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageViewGrup"
+                    android:src="@drawable/grup"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date on "
+                    android:textSize="17dp"
+                    android:layout_marginLeft="10pt"
+                    android:id="@+id/tvJudullvaGrup"
+                    android:textColor="#4a148c " />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date on "
+                    android:textSize="1dp"
+                    android:layout_marginLeft="10pt"
+                    android:id="@+id/tvidgrup"
+                    android:textColor="#4a148c " />
+
+
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
